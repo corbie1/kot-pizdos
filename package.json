@@ -5,6 +5,7 @@
   "version": "0.2.0",
   "publisher": "eugene-local",
   "private": true,
+  "repository": { "type": "git", "url": "https://github.com/corbie1/kot-pizdos.git" },
   "engines": { "vscode": "^1.90.0" },
   "categories": ["Other"],
   "main": "./extension.js",

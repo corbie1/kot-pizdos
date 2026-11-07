@@ -32,7 +32,7 @@ Claude Code ──хуки──▶ hook.js ──▶ ~/.claude/kot-pizdos/state
 ## Установка
 
 ```sh
-npx @vscode/vsce package --allow-missing-repository --skip-license -o kot-pizdos.vsix
+npx @vscode/vsce package --skip-license -o kot-pizdos.vsix
 code --install-extension kot-pizdos.vsix --force
 ```
 
