@@ -1,0 +1,391 @@
+{
+  "pack": "backtothework",
+  "title": "Опять на работу",
+  "stickers": [
+    {
+      "file": "01.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "02.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "03.webp",
+      "emoji": "🤪",
+      "guess": "working"
+    },
+    {
+      "file": "04.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "05.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "06.webp",
+      "emoji": "😬",
+      "guess": "uh_oh"
+    },
+    {
+      "file": "07.webp",
+      "emoji": "😎",
+      "guess": "done"
+    },
+    {
+      "file": "08.webp",
+      "emoji": "😥",
+      "guess": "working"
+    },
+    {
+      "file": "09.webp",
+      "emoji": "🤡",
+      "guess": "working"
+    },
+    {
+      "file": "10.webp",
+      "emoji": "😶",
+      "guess": "working"
+    },
+    {
+      "file": "11.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "12.webp",
+      "emoji": "😐",
+      "guess": "bored"
+    },
+    {
+      "file": "13.webp",
+      "emoji": "📞",
+      "guess": "working"
+    },
+    {
+      "file": "14.webp",
+      "emoji": "❄️",
+      "guess": "working"
+    },
+    {
+      "file": "15.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "16.webp",
+      "emoji": "😬",
+      "guess": "uh_oh"
+    },
+    {
+      "file": "17.webp",
+      "emoji": "🇷🇺",
+      "guess": "working"
+    },
+    {
+      "file": "18.webp",
+      "emoji": "💻",
+      "guess": "working"
+    },
+    {
+      "file": "19.webp",
+      "emoji": "💻",
+      "guess": "working"
+    },
+    {
+      "file": "20.webp",
+      "emoji": "👍",
+      "guess": "done"
+    },
+    {
+      "file": "21.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "22.webp",
+      "emoji": "🇷🇺",
+      "guess": "working"
+    },
+    {
+      "file": "23.webp",
+      "emoji": "🍔",
+      "guess": "working"
+    },
+    {
+      "file": "24.webp",
+      "emoji": "🐒",
+      "guess": "working"
+    },
+    {
+      "file": "25.webp",
+      "emoji": "🤝",
+      "guess": "working"
+    },
+    {
+      "file": "26.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "27.webp",
+      "emoji": "😢",
+      "guess": "pizdos"
+    },
+    {
+      "file": "28.webp",
+      "emoji": "😢",
+      "guess": "pizdos"
+    },
+    {
+      "file": "29.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "30.webp",
+      "emoji": "🏠",
+      "guess": "working"
+    },
+    {
+      "file": "31.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "32.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "33.webp",
+      "emoji": "😢",
+      "guess": "pizdos"
+    },
+    {
+      "file": "34.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "35.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "36.webp",
+      "emoji": "👩",
+      "guess": "working"
+    },
+    {
+      "file": "37.webp",
+      "emoji": "😬",
+      "guess": "uh_oh"
+    },
+    {
+      "file": "38.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "39.webp",
+      "emoji": "🍜",
+      "guess": "working"
+    },
+    {
+      "file": "40.webp",
+      "emoji": "🍲",
+      "guess": "working"
+    },
+    {
+      "file": "41.webp",
+      "emoji": "👌",
+      "guess": "done"
+    },
+    {
+      "file": "42.webp",
+      "emoji": "😬",
+      "guess": "uh_oh"
+    },
+    {
+      "file": "43.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "44.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "45.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "46.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "47.webp",
+      "emoji": "💪",
+      "guess": "done"
+    },
+    {
+      "file": "48.webp",
+      "emoji": "☕️",
+      "guess": "working"
+    },
+    {
+      "file": "49.webp",
+      "emoji": "☺️",
+      "guess": "working"
+    },
+    {
+      "file": "50.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "51.webp",
+      "emoji": "🙏",
+      "guess": "waiting"
+    },
+    {
+      "file": "52.webp",
+      "emoji": "😥",
+      "guess": "working"
+    },
+    {
+      "file": "53.webp",
+      "emoji": "⏰",
+      "guess": "working"
+    },
+    {
+      "file": "54.webp",
+      "emoji": "☢",
+      "guess": "working"
+    },
+    {
+      "file": "55.webp",
+      "emoji": "😷",
+      "guess": "working"
+    },
+    {
+      "file": "56.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "57.webp",
+      "emoji": "⏰",
+      "guess": "working"
+    },
+    {
+      "file": "58.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "59.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "60.webp",
+      "emoji": "☕️",
+      "guess": "working"
+    },
+    {
+      "file": "61.webp",
+      "emoji": "☝️",
+      "guess": "working"
+    },
+    {
+      "file": "62.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "63.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "64.webp",
+      "emoji": "⏰",
+      "guess": "working"
+    },
+    {
+      "file": "65.webp",
+      "emoji": "🤖",
+      "guess": "working"
+    },
+    {
+      "file": "66.webp",
+      "emoji": "🎮",
+      "guess": "working"
+    },
+    {
+      "file": "67.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "68.webp",
+      "emoji": "☕",
+      "guess": "working"
+    },
+    {
+      "file": "69.webp",
+      "emoji": "💻",
+      "guess": "working"
+    },
+    {
+      "file": "70.webp",
+      "emoji": "💸",
+      "guess": "working"
+    },
+    {
+      "file": "71.webp",
+      "emoji": "😳",
+      "guess": "working"
+    },
+    {
+      "file": "72.webp",
+      "emoji": "💩",
+      "guess": "working"
+    },
+    {
+      "file": "73.webp",
+      "emoji": "⏰",
+      "guess": "working"
+    },
+    {
+      "file": "74.webp",
+      "emoji": "🆙",
+      "guess": "working"
+    },
+    {
+      "file": "75.webp",
+      "emoji": "☝️",
+      "guess": "working"
+    },
+    {
+      "file": "76.webp",
+      "emoji": "🤨",
+      "guess": "working"
+    },
+    {
+      "file": "77.webp",
+      "emoji": "😝",
+      "guess": "working"
+    }
+  ]
+}

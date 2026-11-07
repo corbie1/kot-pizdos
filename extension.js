@@ -20,9 +20,13 @@ const webviews = new Set();
 
 function cfg() { return vscode.workspace.getConfiguration('kotPizdos'); }
 
+// Откуда брать котов: папка из настроек, затем скачанный своими руками набор,
+// затем набор, который едет внутри расширения (тогда токен бота вообще не нужен).
 function stickersDir() {
   const custom = cfg().get('stickersDir');
-  return custom && custom.trim() ? custom.trim() : telegram.DEFAULT_DIR;
+  if (custom && custom.trim()) return custom.trim();
+  if (fs.existsSync(path.join(telegram.DEFAULT_DIR, 'moods.json'))) return telegram.DEFAULT_DIR;
+  return path.join(ctx.extensionPath, 'stickers');
 }
 
 // { mood: [абсолютные пути] } из moods.json; файлы, которых нет на диске, отбрасываем.
@@ -234,7 +238,10 @@ async function cmdFetch() {
     { location: vscode.ProgressLocation.Notification, title: `Качаю стикеры ${pack}` },
     async (progress) => {
       try {
-        const r = await telegram.fetchStickers(token.trim(), pack, stickersDir(), (line) => progress.report({ message: line.trim() }));
+        // Качаем всегда в папку пользователя: папка расширения перезаписывается при обновлении.
+        const custom = cfg().get('stickersDir');
+        const dir = custom && custom.trim() ? custom.trim() : telegram.DEFAULT_DIR;
+        const r = await telegram.fetchStickers(token.trim(), pack, dir, (line) => progress.report({ message: line.trim() }));
         vscode.window.showInformationMessage(`Скачано ${r.count} котов из «${r.title}». Раскладка по настроениям — в moods.json.`);
         show(current.mood, current.detail, { force: true });
       } catch (e) {

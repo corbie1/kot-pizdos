@@ -12,8 +12,9 @@ Claude Code ──хуки──▶ hook.js ──▶ ~/.claude/kot-pizdos/state
 - `hook.js` получает событие хука в stdin, решает, какое настроение, и пишет его в `state.json`.
   Расширение копирует его в `~/.claude/kot-pizdos/hook.js`, и `settings.json` ссылается на эту копию.
 - `extension.js` следит за `state.json` и показывает стикер под настроение: в проводнике и в строке состояния.
-- Стикеры лежат в `~/.claude/kot-pizdos/stickers`, раскладка по настроениям — в `moods.json` там же.
-  В репозиторий стикеры не входят, только раскладка `moods.backtothework.json`.
+- Стикеры набора «Опять на работу» (77 штук) лежат в `stickers/` и едут внутри расширения;
+  раскладка по настроениям — `stickers/moods.json`, её можно править руками.
+  Если в `~/.claude/kot-pizdos/stickers` есть свой `moods.json`, кот берёт стикеры оттуда.
 
 | Событие | Настроение |
 |---|---|
@@ -42,10 +43,11 @@ code --install-extension kot-pizdos.vsix --force
 
 1. **Кот: поставить хуки Claude Code** — допишет хуки в `~/.claude/settings.json`, остальное не тронет
    (до первой записи кладёт рядом `settings.json.kot-pizdos.bak`).
-2. **Кот: скачать стикеры из Telegram** — нужен токен бота от @BotFather; без него набор не получить.
-   Или из терминала: `node lib/telegram.js <токен> [имя набора]`.
-3. Скопировать `moods.backtothework.json` в `~/.claude/kot-pizdos/stickers/moods.json` — ручная раскладка
-   набора `backtothework`. Без неё стикеры разложатся по эмодзи, а это сильно грубее.
+2. Всё. Стикеры уже внутри расширения.
+
+Другой набор: **Кот: скачать стикеры из Telegram** (нужен токен бота от @BotFather)
+или `node lib/telegram.js <токен> <имя набора>`. Он ляжет в `~/.claude/kot-pizdos/stickers`
+и разложится по эмодзи — грубо, `moods.json` там лучше поправить руками.
 
 ## Команды
 
