@@ -1,0 +1,18 @@
+{
+  "back_to_work": ["08.webp", "15.webp", "21.webp", "26.webp", "32.webp", "44.webp", "46.webp", "52.webp", "53.webp", "63.webp", "74.webp", "12.webp"],
+  "hello":        ["26.webp", "28.webp", "48.webp", "57.webp", "60.webp", "74.webp", "77.webp"],
+  "working":      ["07.webp", "10.webp", "11.webp", "12.webp", "16.webp", "22.webp", "23.webp", "29.webp", "47.webp", "56.webp", "62.webp"],
+  "searching":    ["31.webp", "42.webp", "67.webp", "75.webp"],
+  "editing":      ["44.webp", "47.webp", "61.webp"],
+  "running":      ["07.webp", "24.webp", "45.webp"],
+  "scared":       ["06.webp", "35.webp", "40.webp", "41.webp", "50.webp", "72.webp"],
+  "uh_oh":        ["02.webp", "04.webp", "05.webp", "27.webp", "36.webp", "55.webp"],
+  "pizdos":       ["01.webp", "02.webp", "13.webp", "18.webp", "19.webp", "58.webp", "67.webp", "69.webp"],
+  "waiting":      ["05.webp", "13.webp", "20.webp", "25.webp", "30.webp", "51.webp", "70.webp"],
+  "bored":        ["14.webp", "27.webp", "30.webp", "65.webp", "66.webp", "76.webp"],
+  "done":         ["17.webp", "34.webp", "38.webp", "39.webp", "43.webp", "49.webp", "62.webp", "68.webp", "71.webp"],
+  "survived":     ["09.webp", "33.webp", "54.webp", "17.webp"],
+  "overloaded":   ["03.webp", "35.webp", "64.webp", "65.webp"],
+  "sleeping":     ["14.webp", "64.webp", "66.webp"],
+  "bye":          ["37.webp", "59.webp", "73.webp"]
+}

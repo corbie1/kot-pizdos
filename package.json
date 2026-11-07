@@ -1,0 +1,49 @@
+{
+  "name": "kot-pizdos",
+  "displayName": "Кот пиздос",
+  "description": "Кот под настроение Claude Code: работает, ищет, боится rm -rf, ловит пиздос на ошибках",
+  "version": "0.2.0",
+  "publisher": "eugene-local",
+  "private": true,
+  "engines": { "vscode": "^1.90.0" },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "views": {
+      "explorer": [
+        { "type": "webview", "id": "kotPizdos.explorerView", "name": "Кот пиздос", "icon": "media/cat.svg" }
+      ]
+    },
+    "commands": [
+      { "command": "kotPizdos.installHooks", "title": "Кот: поставить хуки Claude Code" },
+      { "command": "kotPizdos.uninstallHooks", "title": "Кот: снять хуки Claude Code" },
+      { "command": "kotPizdos.fetchStickers", "title": "Кот: скачать стикеры из Telegram" },
+      { "command": "kotPizdos.openStickers", "title": "Кот: открыть папку со стикерами" },
+      { "command": "kotPizdos.setMood", "title": "Кот: выставить настроение вручную" },
+      { "command": "kotPizdos.nextCat", "title": "Кот: другой кот" },
+      { "command": "kotPizdos.openPanel", "title": "Кот: открыть во вкладке" },
+      { "command": "kotPizdos.focus", "title": "Кот: показать" }
+    ],
+    "configuration": {
+      "title": "Кот пиздос",
+      "properties": {
+        "kotPizdos.stickersDir": {
+          "type": "string",
+          "default": "",
+          "description": "Папка со стикерами и moods.json. Пусто — ~/.claude/kot-pizdos/stickers"
+        },
+        "kotPizdos.stickerPack": {
+          "type": "string",
+          "default": "backtothework",
+          "description": "Короткое имя набора стикеров Telegram (то, что после t.me/addstickers/)"
+        },
+        "kotPizdos.sleepAfterMinutes": {
+          "type": "number",
+          "default": 10,
+          "description": "Через сколько минут тишины кот засыпает. 0 — не засыпает"
+        }
+      }
+    }
+  }
+}
